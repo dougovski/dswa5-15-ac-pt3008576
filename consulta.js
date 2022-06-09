@@ -12,7 +12,7 @@ const dbName = 'ifsp';
 async function main() {
   // Use connect method to connect to the server
   await client.connect();
-  console.log('Aluno: Vinicius Rodrigues Duarte');
+  console.log('Aluno: Douglas Henrique Alves Passos dos Santos');
   const db = client.db(dbName);
   const collection1 = db.collection('contatos');
   const collection2 = db.collection('cursos');
